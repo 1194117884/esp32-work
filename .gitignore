@@ -1,1 +1,22 @@
+# IDE
 .vscode/
+
+# macOS
+.DS_Store
+
+# Root CMake build artifacts
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Compiled binaries
+esp32
+*.out
+
+# ESP-IDF per-project build artifacts
+*/build/
+*/sdkconfig
+*/sdkconfig.old
+*/dependencies.lock
+*/managed_components/
